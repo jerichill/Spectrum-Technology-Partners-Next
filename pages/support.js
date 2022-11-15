@@ -43,18 +43,18 @@ const Support = (props) => {
             </Link>
             <div className="support-links-container">
               <Link href="/solutions">
-                <a className="support-link2 anchor">Solutions</a>
+                <a className="support-link2 Anchor">Solutions</a>
               </Link>
               <Link href="/why">
-                <a className="support-link4 anchor">Why Spectrum?</a>
+                <a className="support-link4 Anchor">Why Spectrum?</a>
               </Link>
-              <a href="#contact" className="support-link5 anchor">
+              <a href="#contact" className="support-link5 Anchor">
                 contact
               </a>
             </div>
             <div className="support-cta-container">
               <Link href="/support">
-                <a className="support-link6 anchor button">Customer Support</a>
+                <a className="support-link6 Anchor button">Customer Support</a>
               </Link>
             </div>
           </div>
@@ -98,7 +98,7 @@ const Support = (props) => {
         </div>
         <div id="solutions" className="support-features">
           <div className="support-heading-container">
-            <h2 className="support-text11 section-Heading">
+            <h2 className="support-text11 Section-Heading">
               IT &amp; Network Infrastructure
             </h2>
             <h3 className="support-text12">
@@ -112,8 +112,8 @@ const Support = (props) => {
                 src="https://images.unsplash.com/photo-1619548683455-23b17c3ddc30?ixlib=rb-1.2.1&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;h=1000"
                 className="support-image2"
               />
-              <span className="support-heading1 card-Heading">Why</span>
-              <span className="support-text13 card-Text">
+              <span className="support-heading1 Card-Heading">Why</span>
+              <span className="support-text13 Card-Text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
                 nisi. Nulla quis sem at nibh elementum imperdiet.
@@ -125,8 +125,8 @@ const Support = (props) => {
                 src="https://images.unsplash.com/photo-1619547871672-b6562e042c1e?ixlib=rb-1.2.1&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;h=1000"
                 className="support-image3"
               />
-              <span className="support-heading2 card-Heading">What</span>
-              <span className="support-text14 card-Text">
+              <span className="support-heading2 Card-Heading">What</span>
+              <span className="support-text14 Card-Text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
                 nisi. Nulla quis sem at nibh elementum imperdiet.
@@ -138,8 +138,8 @@ const Support = (props) => {
                 src="https://images.unsplash.com/photo-1619555241737-9c364cf1fbce?ixlib=rb-1.2.1&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;h=1000"
                 className="support-image4"
               />
-              <span className="support-heading3 card-Heading">How</span>
-              <span className="support-text15 card-Text">
+              <span className="support-heading3 Card-Heading">How</span>
+              <span className="support-text15 Card-Text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
                 nisi. Nulla quis sem at nibh elementum imperdiet.
@@ -218,13 +218,13 @@ const Support = (props) => {
         </div>
         <div id="about" className="support-about-us">
           <div className="support-heading-container1">
-            <h2 className="support-text37 section-Heading">About Spectrum</h2>
+            <h2 className="support-text37 Section-Heading">About Spectrum</h2>
             <span className="support-secondary-text">
               {' '}
               A single point of truth for your business systems and technology
               stack.
             </span>
-            <button className="support-cta-btn1 button anchor">
+            <button className="support-cta-btn1 button Anchor">
               Request a quote
             </button>
           </div>
@@ -248,19 +248,19 @@ const Support = (props) => {
               </span>
             </span>
           </div>
-          <button className="support-cta-btn2 anchor button">
+          <button className="support-cta-btn2 Anchor button">
             START BUILDING
           </button>
         </div>
         <div className="support-testimonials">
-          <h2 className="support-text43 section-Heading">
+          <h2 className="support-text43 Section-Heading">
             Our Happy Customers
           </h2>
           <div className="support-cards-container1">
             <div className="support-testimonial-card">
               <div className="support-card-heading">
                 <div className="support-name-and-position">
-                  <span className="card-Heading">Jackie S.</span>
+                  <span className="Card-Heading">Jackie S.</span>
                 </div>
                 <div className="support-stars-container">
                   <svg
@@ -305,7 +305,7 @@ const Support = (props) => {
             <div className="support-testimonial-card1">
               <div className="support-card-heading1">
                 <div className="support-name-and-position1">
-                  <span className="card-Heading">Joanne V.</span>
+                  <span className="Card-Heading">Joanne V.</span>
                 </div>
                 <div className="support-stars-container1">
                   <svg
@@ -351,7 +351,7 @@ const Support = (props) => {
             <div className="support-testimonial-card2">
               <div className="support-card-heading2">
                 <div className="support-name-and-position2">
-                  <span className="card-Heading">Dave P.</span>
+                  <span className="Card-Heading">Dave P.</span>
                 </div>
                 <div className="support-stars-container2">
                   <svg
@@ -396,7 +396,7 @@ const Support = (props) => {
         </div>
         <div id="contact" className="support-contact">
           <div className="support-content-container">
-            <h2 className="support-text47 section-Heading">Contact Us</h2>
+            <h2 className="support-text47 Section-Heading">Contact Us</h2>
             <div className="support-locations-container">
               <div className="support-location-1">
                 <span className="support-heading4">
@@ -406,7 +406,7 @@ const Support = (props) => {
                   <svg viewBox="0 0 1024 1024" className="support-icon30">
                     <path d="M512 0c-176.732 0-320 143.268-320 320 0 320 320 704 320 704s320-384 320-704c0-176.732-143.27-320-320-320zM512 512c-106.040 0-192-85.96-192-192s85.96-192 192-192 192 85.96 192 192-85.96 192-192 192z"></path>
                   </svg>
-                  <span className="section-Text">
+                  <span className="Section-Text">
                     https://www.spectrumpartners.com
                   </span>
                 </div>
@@ -418,7 +418,7 @@ const Support = (props) => {
                     href="https://zfrmz.com/PW4MJU6QtrNdjnhepCJu"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="support-link7 section-Text"
+                    className="support-link7 Section-Text"
                   >
                     Request a Quote
                   </a>

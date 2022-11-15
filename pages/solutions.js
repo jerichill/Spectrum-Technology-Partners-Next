@@ -43,18 +43,18 @@ const Solutions = (props) => {
             </Link>
             <div className="solutions-links-container">
               <Link href="/solutions">
-                <a className="solutions-link2 anchor"> Solutions</a>
+                <a className="solutions-link2 Anchor"> Solutions</a>
               </Link>
               <Link href="/why">
-                <a className="solutions-link4 anchor">Why Spectrum?</a>
+                <a className="solutions-link4 Anchor">Why Spectrum?</a>
               </Link>
-              <a href="#contact" className="solutions-link5 anchor">
+              <a href="#contact" className="solutions-link5 Anchor">
                 contact
               </a>
             </div>
             <div className="solutions-cta-container">
               <Link href="/support">
-                <a className="solutions-link6 button anchor">
+                <a className="solutions-link6 button Anchor">
                   Customer Support
                 </a>
               </Link>
@@ -76,7 +76,7 @@ const Solutions = (props) => {
                 href="https://zfrmz.com/PW4MJU6QtrNdjnhepCJu"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="solutions-cta-btn1 anchor button"
+                className="solutions-cta-btn1 Anchor button"
               >
                 Request a Quote
               </a>
@@ -150,7 +150,7 @@ const Solutions = (props) => {
         </div>
         <div id="solutions" className="solutions-features">
           <div className="solutions-heading-container">
-            <h2 className="solutions-text029 section-Heading">
+            <h2 className="solutions-text029 Section-Heading">
               IT &amp; Network Infrastructure
             </h2>
             <h3 className="solutions-text030">
@@ -164,8 +164,8 @@ const Solutions = (props) => {
                 src="https://images.unsplash.com/photo-1619548683455-23b17c3ddc30?ixlib=rb-1.2.1&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;h=1000"
                 className="solutions-image2"
               />
-              <span className="solutions-heading1 card-Heading">Why</span>
-              <span className="solutions-text031 card-Text">
+              <span className="solutions-heading1 Card-Heading">Why</span>
+              <span className="solutions-text031 Card-Text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
                 nisi. Nulla quis sem at nibh elementum imperdiet.
@@ -177,8 +177,8 @@ const Solutions = (props) => {
                 src="https://images.unsplash.com/photo-1619547871672-b6562e042c1e?ixlib=rb-1.2.1&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;h=1000"
                 className="solutions-image3"
               />
-              <span className="solutions-heading2 card-Heading">What</span>
-              <span className="solutions-text032 card-Text">
+              <span className="solutions-heading2 Card-Heading">What</span>
+              <span className="solutions-text032 Card-Text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
                 nisi. Nulla quis sem at nibh elementum imperdiet.
@@ -190,8 +190,8 @@ const Solutions = (props) => {
                 src="https://images.unsplash.com/photo-1619555241737-9c364cf1fbce?ixlib=rb-1.2.1&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;h=1000"
                 className="solutions-image4"
               />
-              <span className="solutions-heading3 card-Heading">How</span>
-              <span className="solutions-text033 card-Text">
+              <span className="solutions-heading3 Card-Heading">How</span>
+              <span className="solutions-text033 Card-Text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
                 nisi. Nulla quis sem at nibh elementum imperdiet.
@@ -329,7 +329,7 @@ const Solutions = (props) => {
         </div>
         <div id="about" className="solutions-about-us">
           <div className="solutions-heading-container1">
-            <h2 className="solutions-text096 section-Heading">
+            <h2 className="solutions-text096 Section-Heading">
               About Spectrum
             </h2>
             <span className="solutions-secondary-text">
@@ -337,7 +337,7 @@ const Solutions = (props) => {
               A single point of truth for your business systems and technology
               stack.
             </span>
-            <button className="solutions-cta-btn2 button anchor">
+            <button className="solutions-cta-btn2 button Anchor">
               Request a quote
             </button>
           </div>
@@ -361,19 +361,19 @@ const Solutions = (props) => {
               </span>
             </span>
           </div>
-          <button className="solutions-cta-btn3 anchor button">
+          <button className="solutions-cta-btn3 Anchor button">
             START BUILDING
           </button>
         </div>
         <div className="solutions-testimonials">
-          <h2 className="solutions-text102 section-Heading">
+          <h2 className="solutions-text102 Section-Heading">
             Our Happy Customers
           </h2>
           <div className="solutions-cards-container1">
             <div className="solutions-testimonial-card">
               <div className="solutions-card-heading">
                 <div className="solutions-name-and-position">
-                  <span className="card-Heading">Jackie S.</span>
+                  <span className="Card-Heading">Jackie S.</span>
                 </div>
                 <div className="solutions-stars-container">
                   <svg
@@ -418,7 +418,7 @@ const Solutions = (props) => {
             <div className="solutions-testimonial-card1">
               <div className="solutions-card-heading1">
                 <div className="solutions-name-and-position1">
-                  <span className="card-Heading">Joanne V.</span>
+                  <span className="Card-Heading">Joanne V.</span>
                 </div>
                 <div className="solutions-stars-container1">
                   <svg
@@ -464,7 +464,7 @@ const Solutions = (props) => {
             <div className="solutions-testimonial-card2">
               <div className="solutions-card-heading2">
                 <div className="solutions-name-and-position2">
-                  <span className="card-Heading">Dave P.</span>
+                  <span className="Card-Heading">Dave P.</span>
                 </div>
                 <div className="solutions-stars-container2">
                   <svg
@@ -509,7 +509,7 @@ const Solutions = (props) => {
         </div>
         <div id="contact" className="solutions-contact">
           <div className="solutions-content-container">
-            <h2 className="solutions-text106 section-Heading">Contact Us</h2>
+            <h2 className="solutions-text106 Section-Heading">Contact Us</h2>
             <div className="solutions-locations-container">
               <div className="solutions-location-1">
                 <span className="solutions-heading4">
@@ -519,7 +519,7 @@ const Solutions = (props) => {
                   <svg viewBox="0 0 1024 1024" className="solutions-icon30">
                     <path d="M512 0c-176.732 0-320 143.268-320 320 0 320 320 704 320 704s320-384 320-704c0-176.732-143.27-320-320-320zM512 512c-106.040 0-192-85.96-192-192s85.96-192 192-192 192 85.96 192 192-85.96 192-192 192z"></path>
                   </svg>
-                  <span className="section-Text">
+                  <span className="Section-Text">
                     https://www.spectrumpartners.com
                   </span>
                 </div>
@@ -531,7 +531,7 @@ const Solutions = (props) => {
                     href="https://zfrmz.com/PW4MJU6QtrNdjnhepCJu"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="solutions-link7 section-Text"
+                    className="solutions-link7 Section-Text"
                   >
                     Request a Quote
                   </a>

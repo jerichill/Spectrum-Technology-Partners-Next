@@ -43,18 +43,18 @@ const Home = (props) => {
             </Link>
             <div className="home-links-container">
               <Link href="/solutions">
-                <a className="home-link02 anchor"> Solutions</a>
+                <a className="home-link02 Anchor"> Solutions</a>
               </Link>
               <Link href="/why">
-                <a className="home-link04 anchor">Why Spectrum?</a>
+                <a className="home-link04 Anchor">Why Spectrum?</a>
               </Link>
-              <a href="#contact" className="home-link05 anchor">
+              <a href="#contact" className="home-link05 Anchor">
                 contact
               </a>
             </div>
             <div className="home-cta-container">
               <Link href="/support">
-                <a className="home-link06 button anchor">Customer Support</a>
+                <a className="home-link06 button Anchor">Customer Support</a>
               </Link>
             </div>
           </div>
@@ -76,7 +76,7 @@ const Home = (props) => {
                 href="https://zfrmz.com/PW4MJU6QtrNdjnhepCJu"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="home-cta-btn1 anchor button"
+                className="home-cta-btn1 Anchor button"
               >
                 Request a Quote
               </a>
@@ -86,7 +86,7 @@ const Home = (props) => {
         <div className="home-section-separator"></div>
         <div id="solutions" className="home-features">
           <div className="home-heading-container">
-            <h2 className="home-text03 section-Heading">Our Solutions</h2>
+            <h2 className="home-text03 Section-Heading">Our Solutions</h2>
             <h3 className="home-text04">
               Spectrum Technology Partners offers a single point of management
               for IT projects that demand expertise and accountability.
@@ -99,8 +99,8 @@ const Home = (props) => {
                 src="https://images.unsplash.com/photo-1619548683455-23b17c3ddc30?ixlib=rb-1.2.1&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;h=1000"
                 className="home-image1"
               />
-              <span className="home-heading1 card-Heading">Why</span>
-              <span className="home-text05 card-Text">
+              <span className="home-heading1 Card-Heading">Why</span>
+              <span className="home-text05 Card-Text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
                 nisi. Nulla quis sem at nibh elementum imperdiet.
@@ -112,8 +112,8 @@ const Home = (props) => {
                 src="https://images.unsplash.com/photo-1619547871672-b6562e042c1e?ixlib=rb-1.2.1&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;h=1000"
                 className="home-image2"
               />
-              <span className="home-heading2 card-Heading">What</span>
-              <span className="home-text06 card-Text">
+              <span className="home-heading2 Card-Heading">What</span>
+              <span className="home-text06 Card-Text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
                 nisi. Nulla quis sem at nibh elementum imperdiet.
@@ -125,8 +125,8 @@ const Home = (props) => {
                 src="https://images.unsplash.com/photo-1619555241737-9c364cf1fbce?ixlib=rb-1.2.1&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;h=1000"
                 className="home-image3"
               />
-              <span className="home-heading3 card-Heading">How</span>
-              <span className="home-text07 card-Text">
+              <span className="home-heading3 Card-Heading">How</span>
+              <span className="home-text07 Card-Text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
                 nisi. Nulla quis sem at nibh elementum imperdiet.
@@ -139,10 +139,10 @@ const Home = (props) => {
             <a className="home-link07">
               <div className="home-service-card">
                 <div className="home-card-content">
-                  <h3 className="home-text08 bigCard-Heading">
+                  <h3 className="home-text08 BigCard-Heading">
                     IT &amp; Network Infrastructure
                   </h3>
-                  <span className="home-text09 card-Text">
+                  <span className="home-text09 Card-Text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Integer nec odio. Praesent libero.
                     <span
@@ -151,7 +151,7 @@ const Home = (props) => {
                       }}
                     />
                   </span>
-                  <button className="home-button button anchor">
+                  <button className="home-button button Anchor">
                     READ MORE
                   </button>
                 </div>
@@ -162,10 +162,10 @@ const Home = (props) => {
             <a className="home-link08">
               <div className="home-service-card1">
                 <div className="home-card-content1">
-                  <h3 className="home-text10 bigCard-Heading">
+                  <h3 className="home-text10 BigCard-Heading">
                     Cybersecurity &amp; Compliance
                   </h3>
-                  <span className="home-text11 card-Text">
+                  <span className="home-text11 Card-Text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Integer nec odio. Praesent libero.
                     <span
@@ -174,7 +174,7 @@ const Home = (props) => {
                       }}
                     />
                   </span>
-                  <button className="home-button1 button anchor">
+                  <button className="home-button1 button Anchor">
                     READ MORE
                   </button>
                 </div>
@@ -185,10 +185,10 @@ const Home = (props) => {
             <a className="home-link09">
               <div className="home-service-card2">
                 <div className="home-card-content2">
-                  <h3 className="home-text12 bigCard-Heading">
+                  <h3 className="home-text12 BigCard-Heading">
                     VoIP &amp; Video Communications
                   </h3>
-                  <span className="home-text13 card-Text">
+                  <span className="home-text13 Card-Text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Integer nec odio. Praesent libero.
                     <span
@@ -197,7 +197,7 @@ const Home = (props) => {
                       }}
                     />
                   </span>
-                  <button className="home-button2 anchor button">
+                  <button className="home-button2 Anchor button">
                     READ MORE
                   </button>
                 </div>
@@ -208,10 +208,10 @@ const Home = (props) => {
             <a className="home-link10">
               <div className="home-service-card3">
                 <div className="home-card-content3">
-                  <h3 className="home-text14 bigCard-Heading">
+                  <h3 className="home-text14 BigCard-Heading">
                     Managed Cloud &amp; WebOps
                   </h3>
-                  <span className="home-text15 card-Text">
+                  <span className="home-text15 Card-Text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Integer nec odio. Praesent libero.
                     <span
@@ -220,7 +220,7 @@ const Home = (props) => {
                       }}
                     />
                   </span>
-                  <button className="home-button3 button anchor">
+                  <button className="home-button3 button Anchor">
                     READ MORE
                   </button>
                 </div>
@@ -230,7 +230,7 @@ const Home = (props) => {
         </div>
         <div id="about" className="home-about-us">
           <div className="home-heading-container1">
-            <h2 className="home-text16 section-Heading">About Spectrum</h2>
+            <h2 className="home-text16 Section-Heading">About Spectrum</h2>
             <span className="home-secondary-text">
               {' '}
               A single point of truth for your business systems and technology
@@ -240,7 +240,7 @@ const Home = (props) => {
               href="https://zfrmz.com/PW4MJU6QtrNdjnhepCJu"
               target="_blank"
               rel="noreferrer noopener"
-              className="home-cta-btn2 button anchor"
+              className="home-cta-btn2 button Anchor"
             >
               Request a quote
             </a>
@@ -265,18 +265,18 @@ const Home = (props) => {
               </span>
             </span>
           </div>
-          <button className="home-cta-btn3 button anchor">
+          <button className="home-cta-btn3 button Anchor">
             START BUILDING
           </button>
         </div>
         <div className="home-section-separator1"></div>
         <div className="home-testimonials">
-          <h2 className="home-text22 section-Heading">Our Happy Customers</h2>
+          <h2 className="home-text22 Section-Heading">Our Happy Customers</h2>
           <div className="home-cards-container1">
             <div className="home-testimonial-card">
               <div className="home-card-heading">
                 <div className="home-name-and-position">
-                  <span className="card-Heading">Mark H.</span>
+                  <span className="Card-Heading">Mark H.</span>
                 </div>
                 <div className="home-stars-container">
                   <svg
@@ -321,7 +321,7 @@ const Home = (props) => {
             <div className="home-testimonial-card1">
               <div className="home-card-heading1">
                 <div className="home-name-and-position1">
-                  <span className="card-Heading">James M.</span>
+                  <span className="Card-Heading">James M.</span>
                 </div>
                 <div className="home-stars-container1">
                   <svg
@@ -366,7 +366,7 @@ const Home = (props) => {
             <div className="home-testimonial-card2">
               <div className="home-card-heading2">
                 <div className="home-name-and-position2">
-                  <span className="card-Heading">Kandy K.</span>
+                  <span className="Card-Heading">Kandy K.</span>
                 </div>
                 <div className="home-stars-container2">
                   <svg
@@ -416,7 +416,7 @@ const Home = (props) => {
         </div>
         <div id="contact" className="home-contact">
           <div className="home-content-container">
-            <h2 className="home-text26 section-Heading">Contact Us</h2>
+            <h2 className="home-text26 Section-Heading">Contact Us</h2>
             <div className="home-locations-container">
               <div className="home-location-1">
                 <span className="home-heading4">
@@ -426,7 +426,7 @@ const Home = (props) => {
                   <svg viewBox="0 0 1024 1024" className="home-icon30">
                     <path d="M512 0c-176.732 0-320 143.268-320 320 0 320 320 704 320 704s320-384 320-704c0-176.732-143.27-320-320-320zM512 512c-106.040 0-192-85.96-192-192s85.96-192 192-192 192 85.96 192 192-85.96 192-192 192z"></path>
                   </svg>
-                  <span className="section-Text">
+                  <span className="Section-Text">
                     https://www.spectrumpartners.com
                   </span>
                 </div>
@@ -438,7 +438,7 @@ const Home = (props) => {
                     href="https://zfrmz.com/PW4MJU6QtrNdjnhepCJu"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="home-link11 section-Text"
+                    className="home-link11 Section-Text"
                   >
                     Request a Quote
                   </a>
