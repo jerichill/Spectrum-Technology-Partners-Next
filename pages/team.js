@@ -100,7 +100,7 @@ const Team = (props) => {
                 <BlogPostCard1
                   title="Stephen Crockett"
                   image_src="https://media-exp1.licdn.com/dms/image/C5603AQHkExd84WYz2w/profile-displayphoto-shrink_200_200/0/1605887741961?e=1674086400&amp;v=beta&amp;t=K3erQC_gKLXUlfutulKsHRAWmXBHSlBgvwRB3x-Kc-g"
-                  description="VoIP &amp; Communications"
+                  description="Stephen has over 25 years experience in the hosted VoIP industry. His areas of expertise are hosted VoIP, Unified Communications, and Contact Center solutions for businesses."
                   rootClassName="rootClassName3"
                   className="team-component"
                 ></BlogPostCard1>
@@ -116,7 +116,7 @@ const Team = (props) => {
                 <BlogPostCard1
                   title="Eric Jones"
                   image_src="https://media-exp1.licdn.com/dms/image/C4E03AQGsx5pjuT3Uew/profile-displayphoto-shrink_200_200/0/1548962251636?e=1674086400&amp;v=beta&amp;t=T-VTyJ9pglOjWIzCUN1mjcCWZj_7soL_usnNDRCObFg"
-                  description="Cybersecurity"
+                  description="Eric has 19 years of experience in cybersecurity across a wide range of industries. His areas of expertise are vulnerability assessment, risk mitigation, and compliance."
                   rootClassName="rootClassName2"
                   className="team-component1"
                 ></BlogPostCard1>
@@ -132,7 +132,7 @@ const Team = (props) => {
                 <BlogPostCard1
                   title="Rajev Sivarasa"
                   image_src="https://media-exp1.licdn.com/dms/image/C5603AQFd3tw5-TCeig/profile-displayphoto-shrink_200_200/0/1632145253944?e=1674086400&amp;v=beta&amp;t=mwwECcIBF9peqzc1MqjKhGn6JBSN8B0peu2SY5ido1Y"
-                  description="IT &amp; Networking"
+                  description="Rajev has more than 20 years of experience in IT strategy inlcuding cloud, hardware, and software. His areas of expertise include assisting businesses to create and sustain a competitive advantage through technology and related processes."
                   rootClassName="rootClassName2"
                   className="team-component2"
                 ></BlogPostCard1>
@@ -148,7 +148,7 @@ const Team = (props) => {
                 <BlogPostCard1
                   title="Eric Hill"
                   image_src="https://media-exp1.licdn.com/dms/image/C5603AQGzxI14uUp7NA/profile-displayphoto-shrink_200_200/0/1651642816593?e=1674086400&amp;v=beta&amp;t=PxJEUdvlazNaKmh97hu9GRi4bIZ28Nbj07UYPXu57xU"
-                  description="Websites &amp; Hosting"
+                  description="Eric has more than 18 years of experience in building digital experiences for brands. His areas of expertise include enterprise content management, website lifecycle management, and cloud infrastructure."
                   rootClassName="rootClassName1"
                   className="team-component3"
                 ></BlogPostCard1>
@@ -692,13 +692,17 @@ const Team = (props) => {
           .team-blog {
             width: 100%;
             display: flex;
-            padding: 48px;
             max-width: 1400px;
             align-items: center;
+            padding-top: 48px;
             flex-direction: row;
+            padding-bottom: 48px;
+            justify-content: center;
           }
           .team-container2 {
+            width: var(--dl-size-size-maxcontent);
             display: flex;
+            align-self: stretch;
             align-items: center;
             margin-right: 32px;
             justify-content: space-between;
@@ -710,7 +714,9 @@ const Team = (props) => {
             text-decoration: none;
           }
           .team-container3 {
+            width: var(--dl-size-size-maxcontent);
             display: flex;
+            align-self: stretch;
             align-items: center;
             margin-right: 32px;
             justify-content: space-between;
@@ -722,7 +728,9 @@ const Team = (props) => {
             text-decoration: none;
           }
           .team-container4 {
+            width: var(--dl-size-size-maxcontent);
             display: flex;
+            align-self: stretch;
             align-items: center;
             margin-right: 32px;
             justify-content: space-between;
@@ -734,7 +742,9 @@ const Team = (props) => {
             text-decoration: none;
           }
           .team-container5 {
+            width: var(--dl-size-size-maxcontent);
             display: flex;
+            align-self: stretch;
             align-items: center;
             justify-content: space-between;
           }
@@ -1432,16 +1442,22 @@ const Team = (props) => {
               flex-direction: column;
             }
             .team-container2 {
+              width: auto;
               margin-right: 0px;
               margin-bottom: 48px;
             }
             .team-container3 {
+              width: auto;
               margin-right: 0px;
               margin-bottom: 48px;
             }
             .team-container4 {
+              width: auto;
               margin-right: 0px;
               margin-bottom: 48px;
+            }
+            .team-container5 {
+              width: auto;
             }
             .team-about-us {
               flex-direction: column;

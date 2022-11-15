@@ -34,14 +34,14 @@ const BlogPostCard1 = (props) => {
       <style jsx>
         {`
           .blog-post-card1-blog-post-card {
-            width: auto;
+            width: 100%;
             display: flex;
             overflow: hidden;
             box-shadow: 5px 5px 10px 0px rgba(18, 18, 18, 0.1);
             transition: 0.3s;
             align-items: center;
             flex-direction: column;
-            justify-content: center;
+            justify-content: space-between;
           }
           .blog-post-card1-blog-post-card:hover {
             transform: scale(1.02);
@@ -57,13 +57,14 @@ const BlogPostCard1 = (props) => {
             align-self: stretch;
             align-items: flex-start;
             flex-direction: column;
-            justify-content: flex-start;
+            justify-content: center;
           }
           .blog-post-card1-text {
             margin-bottom: 32px;
           }
           .blog-post-card1-text1 {
             color: var(--dl-color-gray-black);
+            width: auto;
             margin-bottom: 32px;
           }
           .blog-post-card1-container1 {
@@ -88,6 +89,17 @@ const BlogPostCard1 = (props) => {
             margin-left: var(--dl-space-space-halfunit);
           }
 
+          .blog-post-card1-root-class-name1 {
+            align-self: stretch;
+          }
+          .blog-post-card1-root-class-name2 {
+            align-self: stretch;
+          }
+          .blog-post-card1-root-class-name3 {
+            width: auto;
+            align-self: stretch;
+          }
+
           @media (max-width: 991px) {
             .blog-post-card1-image {
               height: 350px;
@@ -103,7 +115,7 @@ BlogPostCard1.defaultProps = {
   rootClassName: '',
   author: 'LinkedIn',
   image_src:
-    'https://images.unsplash.com/photo-1608889825205-eebdb9fc5806?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDI4fHxhdmF0YXJ8ZW58MHx8fHwxNjY4NDkzNDE0&ixlib=rb-4.0.3&h=400',
+    'https://images.unsplash.com/photo-1608889825205-eebdb9fc5806?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDI4fHxhdmF0YXJ8ZW58MHx8fHwxNjY4NDkzNDE0&ixlib=rb-4.0.3&w=1500',
   description: 'dfgdgdfg',
   image_alt: 'image',
   title: 'Jane Doe',
