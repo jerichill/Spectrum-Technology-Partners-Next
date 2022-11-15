@@ -2,6 +2,8 @@ import React from 'react'
 import Link from 'next/link'
 import Head from 'next/head'
 
+import Legal from '../components/legal'
+
 const Why = (props) => {
   return (
     <>
@@ -404,7 +406,9 @@ const Why = (props) => {
               </span>
             </span>
           </div>
-          <button className="why-cta-btn3 button Anchor">START BUILDING</button>
+          <Link href="/team">
+            <a className="why-link10 button Anchor">Meet Our Team</a>
+          </Link>
         </div>
         <div id="contact" className="why-contact">
           <div className="why-content-container">
@@ -432,7 +436,7 @@ const Why = (props) => {
                     href="https://zfrmz.com/PW4MJU6QtrNdjnhepCJu"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="why-link10 Section-Text"
+                    className="why-link11 Section-Text"
                   >
                     Request a Quote
                   </a>
@@ -455,14 +459,7 @@ const Why = (props) => {
             className="why-image1"
           />
         </div>
-        <div className="why-container2">
-          <div className="why-container3">
-            <span className="why-text24">
-              Copyright 2022 Evolve Network Solutions, Fortify IT, Clarity IT,
-              and OpenMedium | All rights reserved. | Privacy Policy
-            </span>
-          </div>
-        </div>
+        <Legal rootClassName="legal-root-class-name3"></Legal>
       </div>
       <style jsx>
         {`
@@ -1163,7 +1160,7 @@ const Why = (props) => {
             color: var(--dl-color-gray-black);
             font-size: 1.25em;
           }
-          .why-cta-btn3 {
+          .why-link10 {
             color: var(--dl-color-gray-white);
             width: 80%;
             display: none;
@@ -1173,6 +1170,7 @@ const Why = (props) => {
             border-width: 0px;
             border-radius: 34px;
             padding-bottom: var(--dl-space-space-doubleunit);
+            text-decoration: none;
             background-color: var(--dl-color-primary-100);
           }
           .why-contact {
@@ -1245,7 +1243,7 @@ const Why = (props) => {
             height: 24px;
             margin-right: var(--dl-space-space-doubleunit);
           }
-          .why-link10 {
+          .why-link11 {
             text-decoration: none;
           }
           .why-phone {
@@ -1262,24 +1260,6 @@ const Why = (props) => {
           .why-image1 {
             width: 50%;
             object-fit: cover;
-          }
-          .why-container2 {
-            flex: 0 0 auto;
-            width: 100%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-          }
-          .why-container3 {
-            flex: 0 0 auto;
-            width: 100%;
-            height: 100px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-          }
-          .why-text24 {
-            font-size: 12px;
           }
           @media (max-width: 991px) {
             .why-hero {
@@ -1306,7 +1286,7 @@ const Why = (props) => {
             .why-text-container {
               width: 100%;
             }
-            .why-cta-btn3 {
+            .why-link10 {
               width: 280px;
               display: block;
               margin-top: var(--dl-space-space-doubleunit);

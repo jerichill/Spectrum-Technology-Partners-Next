@@ -2,6 +2,8 @@ import React from 'react'
 import Link from 'next/link'
 import Head from 'next/head'
 
+import Legal from '../components/legal'
+
 const Support = (props) => {
   return (
     <>
@@ -92,19 +94,17 @@ const Support = (props) => {
               <br></br>
             </span>
             <span className="support-text06">
-              <span>By Email: info@fortifyits.com</span>
-              <br></br>
-              <span>By Phone: (303) 335-0244</span>
+              <span>Email: cybersecurity@werespectrum.com</span>
               <br></br>
             </span>
           </div>
         </div>
         <div id="solutions" className="support-features">
           <div className="support-heading-container">
-            <h2 className="support-text11 Section-Heading">
+            <h2 className="support-text09 Section-Heading">
               IT &amp; Network Infrastructure
             </h2>
-            <h3 className="support-text12">
+            <h3 className="support-text10">
               Unified IT managed services for your business.
             </h3>
           </div>
@@ -116,7 +116,7 @@ const Support = (props) => {
                 className="support-image2"
               />
               <span className="support-heading1 Card-Heading">Why</span>
-              <span className="support-text13 Card-Text">
+              <span className="support-text11 Card-Text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
                 nisi. Nulla quis sem at nibh elementum imperdiet.
@@ -129,7 +129,7 @@ const Support = (props) => {
                 className="support-image3"
               />
               <span className="support-heading2 Card-Heading">What</span>
-              <span className="support-text14 Card-Text">
+              <span className="support-text12 Card-Text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
                 nisi. Nulla quis sem at nibh elementum imperdiet.
@@ -142,7 +142,7 @@ const Support = (props) => {
                 className="support-image4"
               />
               <span className="support-heading3 Card-Heading">How</span>
-              <span className="support-text15 Card-Text">
+              <span className="support-text13 Card-Text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
                 nisi. Nulla quis sem at nibh elementum imperdiet.
@@ -159,15 +159,13 @@ const Support = (props) => {
             />
           </div>
           <div className="support-container05">
-            <h2 className="support-text16">IT &amp; Network Support</h2>
-            <span className="support-text17">
+            <h2 className="support-text14">IT &amp; Network Support</h2>
+            <span className="support-text15">
               Contact Clarity IT to request help with your IT systems and
               networks.
             </span>
-            <span className="support-text18">
-              <span>By Phone: (720) 410-5280</span>
-              <br></br>
-              <span>By Email: support@clarity5280.com</span>
+            <span className="support-text16">
+              <span>Email: tech@werespectrum.com</span>
               <br></br>
             </span>
           </div>
@@ -181,17 +179,15 @@ const Support = (props) => {
             />
           </div>
           <div className="support-container07">
-            <h2 className="support-text23">
+            <h2 className="support-text19">
               VoIP &amp; Communications Support
             </h2>
-            <span className="support-text24">
+            <span className="support-text20">
               Contact Evolve Network Solutions to request help with your VoIP
               system.
             </span>
-            <span className="support-text25">
-              <span>By Email: support@evolvesolutionsinc.com</span>
-              <br></br>
-              <span>By Phone: (303) 645-4200 ext 2</span>
+            <span className="support-text21">
+              <span>Email: phone@werespectrum.com</span>
               <br></br>
             </span>
           </div>
@@ -205,23 +201,21 @@ const Support = (props) => {
             />
           </div>
           <div className="support-container09">
-            <h2 className="support-text30">
+            <h2 className="support-text24">
               Website, Hosting, and Cloud Support
             </h2>
-            <span className="support-text31">
+            <span className="support-text25">
               Contact OpenMedium to request website, cloud, and hosting support.
             </span>
-            <span className="support-text32">
-              <span>By Email: support@openmedium.biz</span>
-              <br></br>
-              <span>By Phone: (303) 532-1953</span>
+            <span className="support-text26">
+              <span>Email: web@werespectrum.com</span>
               <br></br>
             </span>
           </div>
         </div>
         <div id="about" className="support-about-us">
           <div className="support-heading-container1">
-            <h2 className="support-text37 Section-Heading">About Spectrum</h2>
+            <h2 className="support-text29 Section-Heading">About Spectrum</h2>
             <span className="support-secondary-text">
               {' '}
               A single point of truth for your business systems and technology
@@ -232,7 +226,7 @@ const Support = (props) => {
             </button>
           </div>
           <div className="support-text-container">
-            <span className="support-text38">
+            <span className="support-text30">
               <span>
                 Success in IT project management depends on how well vendors and
                 service providers work together.  Understanding project goals,
@@ -256,7 +250,7 @@ const Support = (props) => {
           </button>
         </div>
         <div className="support-testimonials">
-          <h2 className="support-text43 Section-Heading">
+          <h2 className="support-text35 Section-Heading">
             Our Happy Customers
           </h2>
           <div className="support-cards-container1">
@@ -298,7 +292,7 @@ const Support = (props) => {
                   </svg>
                 </div>
               </div>
-              <span className="support-text44">
+              <span className="support-text36">
                 Attentive and responsive. Definitely knows their stuff, on the
                 cutting edge. Perfect for reducing our infrastructure costs and
                 moving to the cloud. Having a virtual CIO assisting me on
@@ -343,7 +337,7 @@ const Support = (props) => {
                   </svg>
                 </div>
               </div>
-              <span className="support-text45">
+              <span className="support-text37">
                 They got us up and running in no time. My website is beautiful
                 and I receive compliments daily. Even more important than the
                 beauty of my site is the fact that it NEVER goes down. What a
@@ -389,7 +383,7 @@ const Support = (props) => {
                   </svg>
                 </div>
               </div>
-              <span className="support-text46">
+              <span className="support-text38">
                 Professional, courteous, and ultimately just a great team to
                 work with. They act as if our  platforms are their own, and take
                 great care to ensure our users get a great experience
@@ -399,7 +393,7 @@ const Support = (props) => {
         </div>
         <div id="contact" className="support-contact">
           <div className="support-content-container">
-            <h2 className="support-text47 Section-Heading">Contact Us</h2>
+            <h2 className="support-text39 Section-Heading">Contact Us</h2>
             <div className="support-locations-container">
               <div className="support-location-1">
                 <span className="support-heading4">
@@ -446,14 +440,7 @@ const Support = (props) => {
             className="support-image8"
           />
         </div>
-        <div className="support-container10">
-          <div className="support-container11">
-            <span className="support-text53">
-              Copyright 2022 Evolve Network Solutions, Fortify IT, Clarity IT,
-              and OpenMedium | All rights reserved. | Privacy Policy
-            </span>
-          </div>
-        </div>
+        <Legal rootClassName="legal-root-class-name1"></Legal>
       </div>
       <style jsx>
         {`
@@ -653,11 +640,11 @@ const Support = (props) => {
             margin-bottom: var(--dl-space-space-fiveunits);
             flex-direction: column;
           }
-          .support-text11 {
+          .support-text09 {
             text-align: center;
             margin-bottom: var(--dl-space-space-fourunits);
           }
-          .support-text12 {
+          .support-text10 {
             color: var(--dl-color-gray-black);
             font-size: 20px;
             text-align: center;
@@ -690,7 +677,7 @@ const Support = (props) => {
           .support-heading1 {
             margin-bottom: var(--dl-space-space-tripleunit);
           }
-          .support-text13 {
+          .support-text11 {
             color: var(--dl-color-gray-500);
             text-align: center;
           }
@@ -712,7 +699,7 @@ const Support = (props) => {
           .support-heading2 {
             margin-bottom: var(--dl-space-space-tripleunit);
           }
-          .support-text14 {
+          .support-text12 {
             color: var(--dl-color-gray-500);
             text-align: center;
           }
@@ -734,7 +721,7 @@ const Support = (props) => {
           .support-heading3 {
             margin-bottom: var(--dl-space-space-tripleunit);
           }
-          .support-text15 {
+          .support-text13 {
             color: var(--dl-color-gray-500);
             text-align: center;
           }
@@ -773,14 +760,14 @@ const Support = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .support-text16 {
+          .support-text14 {
             margin-bottom: var(--dl-space-space-doubleunit);
           }
-          .support-text17 {
+          .support-text15 {
             font-size: 20px;
             margin-bottom: var(--dl-space-space-doubleunit);
           }
-          .support-text18 {
+          .support-text16 {
             line-height: 2em;
             margin-left: var(--dl-space-space-tripleunit);
           }
@@ -819,14 +806,14 @@ const Support = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .support-text23 {
+          .support-text19 {
             margin-bottom: var(--dl-space-space-doubleunit);
           }
-          .support-text24 {
+          .support-text20 {
             font-size: 20px;
             margin-bottom: var(--dl-space-space-doubleunit);
           }
-          .support-text25 {
+          .support-text21 {
             line-height: 2em;
             margin-left: var(--dl-space-space-tripleunit);
           }
@@ -865,14 +852,14 @@ const Support = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .support-text30 {
+          .support-text24 {
             margin-bottom: var(--dl-space-space-doubleunit);
           }
-          .support-text31 {
+          .support-text25 {
             font-size: 20px;
             margin-bottom: var(--dl-space-space-doubleunit);
           }
-          .support-text32 {
+          .support-text26 {
             line-height: 2em;
             margin-left: var(--dl-space-space-tripleunit);
           }
@@ -895,7 +882,7 @@ const Support = (props) => {
             margin-right: var(--dl-space-space-fiveunits);
             flex-direction: column;
           }
-          .support-text37 {
+          .support-text29 {
             margin-bottom: var(--dl-space-space-tripleunit);
           }
           .support-secondary-text {
@@ -926,7 +913,7 @@ const Support = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .support-text38 {
+          .support-text30 {
             color: var(--dl-color-gray-black);
             font-size: 1.25em;
           }
@@ -954,7 +941,7 @@ const Support = (props) => {
             flex-direction: column;
             padding-bottom: var(--dl-space-space-fiveunits);
           }
-          .support-text43 {
+          .support-text35 {
             margin-bottom: var(--dl-space-space-fiveunits);
           }
           .support-cards-container1 {
@@ -1039,7 +1026,7 @@ const Support = (props) => {
             height: 24px;
             margin-right: var(--dl-space-space-unit);
           }
-          .support-text44 {
+          .support-text36 {
             color: var(--dl-color-gray-black);
             text-align: left;
           }
@@ -1115,7 +1102,7 @@ const Support = (props) => {
             width: 24px;
             height: 24px;
           }
-          .support-text45 {
+          .support-text37 {
             color: var(--dl-color-gray-black);
             text-align: left;
           }
@@ -1192,7 +1179,7 @@ const Support = (props) => {
             height: 24px;
             margin-right: var(--dl-space-space-unit);
           }
-          .support-text46 {
+          .support-text38 {
             color: var(--dl-color-gray-black);
             text-align: left;
           }
@@ -1221,7 +1208,7 @@ const Support = (props) => {
             border-right-width: 0px;
             border-bottom-width: 0px;
           }
-          .support-text47 {
+          .support-text39 {
             margin-top: var(--dl-space-space-fiveunits);
             margin-bottom: var(--dl-space-space-fiveunits);
           }
@@ -1283,24 +1270,6 @@ const Support = (props) => {
           .support-image8 {
             width: 50%;
             object-fit: cover;
-          }
-          .support-container10 {
-            flex: 0 0 auto;
-            width: 100%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-          }
-          .support-container11 {
-            flex: 0 0 auto;
-            width: 100%;
-            height: 100px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-          }
-          .support-text53 {
-            font-size: 12px;
           }
           @media (max-width: 991px) {
             .support-hero {
@@ -1374,10 +1343,10 @@ const Support = (props) => {
             .support-heading-container1 {
               align-items: center;
             }
-            .support-text37 {
+            .support-text29 {
               text-align: center;
             }
-            .support-text43 {
+            .support-text35 {
               text-align: center;
             }
             .support-cards-container1 {
@@ -1484,7 +1453,7 @@ const Support = (props) => {
               margin-left: 0px;
               padding-left: var(--dl-space-space-tripleunit);
             }
-            .support-text43 {
+            .support-text35 {
               text-align: center;
             }
             .support-testimonial-card {
@@ -1501,7 +1470,7 @@ const Support = (props) => {
               padding-left: 0px;
               padding-right: 0px;
             }
-            .support-text47 {
+            .support-text39 {
               text-align: center;
             }
             .support-locations-container {

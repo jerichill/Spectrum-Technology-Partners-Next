@@ -3,6 +3,7 @@ import Link from 'next/link'
 import Head from 'next/head'
 
 import BlogPostCard1 from '../components/blog-post-card1'
+import Legal from '../components/legal'
 
 const Team = (props) => {
   return (
@@ -148,7 +149,7 @@ const Team = (props) => {
                 <BlogPostCard1
                   title="Eric Hill"
                   image_src="https://media-exp1.licdn.com/dms/image/C5603AQGzxI14uUp7NA/profile-displayphoto-shrink_200_200/0/1651642816593?e=1674086400&amp;v=beta&amp;t=PxJEUdvlazNaKmh97hu9GRi4bIZ28Nbj07UYPXu57xU"
-                  description="Eric has more than 18 years of experience in building digital experiences for brands. His areas of expertise include enterprise content management, website lifecycle management, and cloud infrastructure."
+                  description="Eric has more than 18 years of experience in building digital experiences for brands. His areas of expertise include enterprise content management, website lifecycle management, hosting, and analytics."
                   rootClassName="rootClassName1"
                   className="team-component3"
                 ></BlogPostCard1>
@@ -472,9 +473,9 @@ const Team = (props) => {
               </span>
             </span>
           </div>
-          <button className="team-cta-btn3 Anchor button">
-            START BUILDING
-          </button>
+          <Link href="/team">
+            <a className="team-link13 Anchor button">Meet Our Team</a>
+          </Link>
         </div>
         <div id="contact" className="team-contact">
           <div className="team-content-container">
@@ -500,7 +501,7 @@ const Team = (props) => {
                     href="https://zfrmz.com/PW4MJU6QtrNdjnhepCJu"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="team-link13 Section-Text"
+                    className="team-link14 Section-Text"
                   >
                     Request a Quote
                   </a>
@@ -523,14 +524,7 @@ const Team = (props) => {
             className="team-image1"
           />
         </div>
-        <div className="team-container6">
-          <div className="team-container7">
-            <span className="team-text20">
-              Copyright 2022 Evolve Network Solutions, Fortify IT, Clarity IT,
-              and OpenMedium | All rights reserved. | Privacy Policy
-            </span>
-          </div>
-        </div>
+        <Legal rootClassName="legal-root-class-name2"></Legal>
       </div>
       <style jsx>
         {`
@@ -1310,7 +1304,7 @@ const Team = (props) => {
             color: var(--dl-color-gray-black);
             font-size: 1.25em;
           }
-          .team-cta-btn3 {
+          .team-link13 {
             color: var(--dl-color-gray-white);
             width: 80%;
             display: none;
@@ -1320,6 +1314,7 @@ const Team = (props) => {
             border-width: 0px;
             border-radius: 34px;
             padding-bottom: var(--dl-space-space-doubleunit);
+            text-decoration: none;
             background-color: var(--dl-color-primary-100);
           }
           .team-contact {
@@ -1392,7 +1387,7 @@ const Team = (props) => {
             height: 24px;
             margin-right: var(--dl-space-space-doubleunit);
           }
-          .team-link13 {
+          .team-link14 {
             text-decoration: none;
           }
           .team-phone {
@@ -1409,24 +1404,6 @@ const Team = (props) => {
           .team-image1 {
             width: 50%;
             object-fit: cover;
-          }
-          .team-container6 {
-            flex: 0 0 auto;
-            width: 100%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-          }
-          .team-container7 {
-            flex: 0 0 auto;
-            width: 100%;
-            height: 100px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-          }
-          .team-text20 {
-            font-size: 12px;
           }
           @media (max-width: 991px) {
             .team-hero {
@@ -1474,7 +1451,7 @@ const Team = (props) => {
             .team-text-container {
               width: 100%;
             }
-            .team-cta-btn3 {
+            .team-link13 {
               width: 280px;
               display: block;
               margin-top: var(--dl-space-space-doubleunit);

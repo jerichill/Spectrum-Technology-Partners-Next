@@ -2,6 +2,8 @@ import React from 'react'
 import Link from 'next/link'
 import Head from 'next/head'
 
+import Legal from '../components/legal'
+
 const Solutions = (props) => {
   return (
     <>
@@ -559,14 +561,7 @@ const Solutions = (props) => {
             className="solutions-image8"
           />
         </div>
-        <div className="solutions-container10">
-          <div className="solutions-container11">
-            <span className="solutions-text112">
-              Copyright 2022 Evolve Network Solutions, Fortify IT, Clarity IT,
-              and OpenMedium | All rights reserved. | Privacy Policy
-            </span>
-          </div>
-        </div>
+        <Legal rootClassName="legal-root-class-name"></Legal>
       </div>
       <style jsx>
         {`
@@ -1412,24 +1407,6 @@ const Solutions = (props) => {
           .solutions-image8 {
             width: 50%;
             object-fit: cover;
-          }
-          .solutions-container10 {
-            flex: 0 0 auto;
-            width: 100%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-          }
-          .solutions-container11 {
-            flex: 0 0 auto;
-            width: 100%;
-            height: 100px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-          }
-          .solutions-text112 {
-            font-size: 12px;
           }
           @media (max-width: 1200px) {
             .solutions-container01 {

@@ -2,6 +2,8 @@ import React from 'react'
 import Link from 'next/link'
 import Head from 'next/head'
 
+import Legal from '../components/legal'
+
 const Home = (props) => {
   return (
     <>
@@ -266,9 +268,9 @@ const Home = (props) => {
               </span>
             </span>
           </div>
-          <button className="home-cta-btn3 button Anchor">
-            START BUILDING
-          </button>
+          <Link href="/team">
+            <a className="home-link14 button Anchor">Meet Our Team</a>
+          </Link>
         </div>
         <div className="home-section-separator1"></div>
         <div className="home-testimonials">
@@ -439,7 +441,7 @@ const Home = (props) => {
                     href="https://zfrmz.com/PW4MJU6QtrNdjnhepCJu"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="home-link14 Section-Text"
+                    className="home-link15 Section-Text"
                   >
                     Request a Quote
                   </a>
@@ -462,14 +464,7 @@ const Home = (props) => {
             className="home-image4"
           />
         </div>
-        <div className="home-container2">
-          <div className="home-container3">
-            <span className="home-text31">
-              Copyright 2022 Evolve Network Solutions, Fortify IT, Clarity IT,
-              and OpenMedium | All rights reserved. | Privacy Policy
-            </span>
-          </div>
-        </div>
+        <Legal></Legal>
       </div>
       <style jsx>
         {`
@@ -996,7 +991,7 @@ const Home = (props) => {
             color: var(--dl-color-gray-black);
             font-size: 1.25em;
           }
-          .home-cta-btn3 {
+          .home-link14 {
             color: var(--dl-color-gray-white);
             width: 80%;
             display: none;
@@ -1006,6 +1001,7 @@ const Home = (props) => {
             border-width: 0px;
             border-radius: 34px;
             padding-bottom: var(--dl-space-space-doubleunit);
+            text-decoration: none;
             background-color: var(--dl-color-primary-100);
           }
           .home-section-separator1 {
@@ -1341,7 +1337,7 @@ const Home = (props) => {
             height: 24px;
             margin-right: var(--dl-space-space-doubleunit);
           }
-          .home-link14 {
+          .home-link15 {
             text-decoration: none;
           }
           .home-phone {
@@ -1358,24 +1354,6 @@ const Home = (props) => {
           .home-image4 {
             width: 50%;
             object-fit: cover;
-          }
-          .home-container2 {
-            flex: 0 0 auto;
-            width: 100%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-          }
-          .home-container3 {
-            flex: 0 0 auto;
-            width: 100%;
-            height: 100px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-          }
-          .home-text31 {
-            font-size: 12px;
           }
           @media (max-width: 1200px) {
             .home-container1 {
@@ -1411,7 +1389,7 @@ const Home = (props) => {
             .home-text-container {
               width: 100%;
             }
-            .home-cta-btn3 {
+            .home-link14 {
               width: 280px;
               display: block;
               margin-top: var(--dl-space-space-doubleunit);
