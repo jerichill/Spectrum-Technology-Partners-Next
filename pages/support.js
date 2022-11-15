@@ -409,8 +409,10 @@ const Support = (props) => {
                   <svg viewBox="0 0 1024 1024" className="support-icon30">
                     <path d="M512 0c-176.732 0-320 143.268-320 320 0 320 320 704 320 704s320-384 320-704c0-176.732-143.27-320-320-320zM512 512c-106.040 0-192-85.96-192-192s85.96-192 192-192 192 85.96 192 192-85.96 192-192 192z"></path>
                   </svg>
-                  <span className="Section-Text">
-                    https://www.spectrumpartners.com
+                  <span>
+                    <span className="Section-Text">https://www.</span>
+                    <span>werespectrum</span>
+                    <span className="Section-Text">.com</span>
                   </span>
                 </div>
                 <div className="support-email">
@@ -446,7 +448,7 @@ const Support = (props) => {
         </div>
         <div className="support-container10">
           <div className="support-container11">
-            <span className="support-text50">
+            <span className="support-text53">
               Copyright 2022 Evolve Network Solutions, Fortify IT, Clarity IT,
               and OpenMedium | All rights reserved. | Privacy Policy
             </span>
@@ -1297,7 +1299,7 @@ const Support = (props) => {
             align-items: center;
             justify-content: center;
           }
-          .support-text50 {
+          .support-text53 {
             font-size: 12px;
           }
           @media (max-width: 991px) {

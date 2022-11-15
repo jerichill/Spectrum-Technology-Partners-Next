@@ -522,8 +522,10 @@ const Solutions = (props) => {
                   <svg viewBox="0 0 1024 1024" className="solutions-icon30">
                     <path d="M512 0c-176.732 0-320 143.268-320 320 0 320 320 704 320 704s320-384 320-704c0-176.732-143.27-320-320-320zM512 512c-106.040 0-192-85.96-192-192s85.96-192 192-192 192 85.96 192 192-85.96 192-192 192z"></path>
                   </svg>
-                  <span className="Section-Text">
-                    https://www.spectrumpartners.com
+                  <span>
+                    <span className="Section-Text">https://www.</span>
+                    <span>werespectrum</span>
+                    <span className="Section-Text">.com</span>
                   </span>
                 </div>
                 <div className="solutions-email">
@@ -559,7 +561,7 @@ const Solutions = (props) => {
         </div>
         <div className="solutions-container10">
           <div className="solutions-container11">
-            <span className="solutions-text109">
+            <span className="solutions-text112">
               Copyright 2022 Evolve Network Solutions, Fortify IT, Clarity IT,
               and OpenMedium | All rights reserved. | Privacy Policy
             </span>
@@ -1426,7 +1428,7 @@ const Solutions = (props) => {
             align-items: center;
             justify-content: center;
           }
-          .solutions-text109 {
+          .solutions-text112 {
             font-size: 12px;
           }
           @media (max-width: 1200px) {

@@ -242,14 +242,9 @@ const Home = (props) => {
               A single point of truth for your business systems and technology
               stack.
             </span>
-            <a
-              href="https://zfrmz.com/PW4MJU6QtrNdjnhepCJu"
-              target="_blank"
-              rel="noreferrer noopener"
-              className="home-cta-btn2 button Anchor"
-            >
-              Request a quote
-            </a>
+            <Link href="/team">
+              <a className="home-link13 button Anchor">Meet Our Team</a>
+            </Link>
           </div>
           <div className="home-text-container">
             <span className="home-text19">
@@ -433,7 +428,7 @@ const Home = (props) => {
                     <path d="M512 0c-176.732 0-320 143.268-320 320 0 320 320 704 320 704s320-384 320-704c0-176.732-143.27-320-320-320zM512 512c-106.040 0-192-85.96-192-192s85.96-192 192-192 192 85.96 192 192-85.96 192-192 192z"></path>
                   </svg>
                   <span className="Section-Text">
-                    https://www.spectrumpartners.com
+                    https://www.werespectrum.com
                   </span>
                 </div>
                 <div className="home-email">
@@ -444,7 +439,7 @@ const Home = (props) => {
                     href="https://zfrmz.com/PW4MJU6QtrNdjnhepCJu"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="home-link13 Section-Text"
+                    className="home-link14 Section-Text"
                   >
                     Request a Quote
                   </a>
@@ -979,7 +974,7 @@ const Home = (props) => {
             text-transform: none;
             text-decoration: none;
           }
-          .home-cta-btn2 {
+          .home-link13 {
             color: var(--dl-color-gray-white);
             align-self: flex-start;
             text-align: center;
@@ -1346,7 +1341,7 @@ const Home = (props) => {
             height: 24px;
             margin-right: var(--dl-space-space-doubleunit);
           }
-          .home-link13 {
+          .home-link14 {
             text-decoration: none;
           }
           .home-phone {
@@ -1409,7 +1404,7 @@ const Home = (props) => {
               margin-right: 0px;
               margin-bottom: var(--dl-space-space-tripleunit);
             }
-            .home-cta-btn2 {
+            .home-link13 {
               width: 40%;
               display: none;
             }

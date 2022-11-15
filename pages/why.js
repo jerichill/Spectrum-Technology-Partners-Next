@@ -380,9 +380,9 @@ const Why = (props) => {
               A single point of truth for your business systems and technology
               stack.
             </span>
-            <button className="why-cta-btn2 button Anchor">
-              Request a quote
-            </button>
+            <Link href="/team">
+              <a className="why-link09 button Anchor">Meet Our Team</a>
+            </Link>
           </div>
           <div className="why-text-container">
             <span className="why-text13">
@@ -418,8 +418,10 @@ const Why = (props) => {
                   <svg viewBox="0 0 1024 1024" className="why-icon60">
                     <path d="M512 0c-176.732 0-320 143.268-320 320 0 320 320 704 320 704s320-384 320-704c0-176.732-143.27-320-320-320zM512 512c-106.040 0-192-85.96-192-192s85.96-192 192-192 192 85.96 192 192-85.96 192-192 192z"></path>
                   </svg>
-                  <span className="Section-Text">
-                    https://www.spectrumpartners.com
+                  <span>
+                    <span className="Section-Text">https://www.</span>
+                    <span>werespectrum</span>
+                    <span className="Section-Text">.com</span>
                   </span>
                 </div>
                 <div className="why-email">
@@ -430,7 +432,7 @@ const Why = (props) => {
                     href="https://zfrmz.com/PW4MJU6QtrNdjnhepCJu"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="why-link09 Section-Text"
+                    className="why-link10 Section-Text"
                   >
                     Request a Quote
                   </a>
@@ -455,7 +457,7 @@ const Why = (props) => {
         </div>
         <div className="why-container2">
           <div className="why-container3">
-            <span className="why-text21">
+            <span className="why-text24">
               Copyright 2022 Evolve Network Solutions, Fortify IT, Clarity IT,
               and OpenMedium | All rights reserved. | Privacy Policy
             </span>
@@ -1139,7 +1141,7 @@ const Why = (props) => {
             text-transform: none;
             text-decoration: none;
           }
-          .why-cta-btn2 {
+          .why-link09 {
             color: var(--dl-color-gray-white);
             align-self: flex-start;
             text-align: center;
@@ -1147,6 +1149,7 @@ const Why = (props) => {
             border-width: 0px;
             border-radius: 34px;
             padding-bottom: var(--dl-space-space-doubleunit);
+            text-decoration: none;
             background-color: var(--dl-color-primary-100);
           }
           .why-text-container {
@@ -1242,7 +1245,7 @@ const Why = (props) => {
             height: 24px;
             margin-right: var(--dl-space-space-doubleunit);
           }
-          .why-link09 {
+          .why-link10 {
             text-decoration: none;
           }
           .why-phone {
@@ -1275,7 +1278,7 @@ const Why = (props) => {
             align-items: center;
             justify-content: center;
           }
-          .why-text21 {
+          .why-text24 {
             font-size: 12px;
           }
           @media (max-width: 991px) {
@@ -1296,7 +1299,7 @@ const Why = (props) => {
               margin-right: 0px;
               margin-bottom: var(--dl-space-space-tripleunit);
             }
-            .why-cta-btn2 {
+            .why-link09 {
               width: 40%;
               display: none;
             }
