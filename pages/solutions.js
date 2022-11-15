@@ -43,18 +43,21 @@ const Solutions = (props) => {
             </Link>
             <div className="solutions-links-container">
               <Link href="/solutions">
-                <a className="solutions-link2 Anchor"> Solutions</a>
+                <a className="solutions-link02 Anchor"> Solutions</a>
               </Link>
               <Link href="/why">
-                <a className="solutions-link4 Anchor">Why Spectrum?</a>
+                <a className="solutions-link04 Anchor">Why Spectrum?</a>
               </Link>
-              <a href="#contact" className="solutions-link5 Anchor">
+              <Link href="/team">
+                <a className="solutions-link06 Anchor">Team</a>
+              </Link>
+              <a href="#contact" className="solutions-link07 Anchor">
                 contact
               </a>
             </div>
             <div className="solutions-cta-container">
               <Link href="/support">
-                <a className="solutions-link6 button Anchor">
+                <a className="solutions-link08 button Anchor">
                   Customer Support
                 </a>
               </Link>
@@ -531,7 +534,7 @@ const Solutions = (props) => {
                     href="https://zfrmz.com/PW4MJU6QtrNdjnhepCJu"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="solutions-link7 Section-Text"
+                    className="solutions-link09 Section-Text"
                   >
                     Request a Quote
                   </a>
@@ -618,15 +621,19 @@ const Solutions = (props) => {
             align-items: flex-start;
             flex-direction: row;
           }
-          .solutions-link2 {
+          .solutions-link02 {
             margin-right: var(--dl-space-space-tripleunit);
             text-decoration: none;
           }
-          .solutions-link4 {
+          .solutions-link04 {
             margin-right: var(--dl-space-space-tripleunit);
             text-decoration: none;
           }
-          .solutions-link5 {
+          .solutions-link06 {
+            margin-right: var(--dl-space-space-tripleunit);
+            text-decoration: none;
+          }
+          .solutions-link07 {
             text-decoration: none;
           }
           .solutions-cta-container {
@@ -635,7 +642,7 @@ const Solutions = (props) => {
             flex-direction: row;
             justify-content: space-between;
           }
-          .solutions-link6 {
+          .solutions-link08 {
             color: var(--dl-color-gray-white);
             padding-top: var(--dl-space-space-unit);
             padding-left: var(--dl-space-space-fiveunits);
@@ -1386,7 +1393,7 @@ const Solutions = (props) => {
             height: 24px;
             margin-right: var(--dl-space-space-doubleunit);
           }
-          .solutions-link7 {
+          .solutions-link09 {
             text-decoration: none;
           }
           .solutions-phone {
@@ -1598,16 +1605,19 @@ const Solutions = (props) => {
             }
           }
           @media (max-width: 479px) {
-            .solutions-link2 {
+            .solutions-link02 {
               margin-right: var(--dl-space-space-halfunit);
             }
-            .solutions-link4 {
+            .solutions-link04 {
               display: none;
             }
-            .solutions-link5 {
+            .solutions-link06 {
               display: none;
             }
-            .solutions-link6 {
+            .solutions-link07 {
+              display: none;
+            }
+            .solutions-link08 {
               font-size: 16px;
               padding-left: var(--dl-space-space-doubleunit);
               padding-right: var(--dl-space-space-doubleunit);

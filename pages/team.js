@@ -50,13 +50,16 @@ const Team = (props) => {
               <Link href="/why">
                 <a className="team-link04 Anchor">Why Spectrum?</a>
               </Link>
-              <a href="#contact" className="team-link05 Anchor">
+              <Link href="/why">
+                <a className="team-link06 Anchor">Team</a>
+              </Link>
+              <a href="#contact" className="team-link07 Anchor">
                 contact
               </a>
             </div>
             <div className="team-cta-container">
               <Link href="/support">
-                <a className="team-link06 Anchor button">Customer Support</a>
+                <a className="team-link08 Anchor button">Customer Support</a>
               </Link>
             </div>
           </div>
@@ -65,7 +68,7 @@ const Team = (props) => {
           <div className="team-container1">
             <div className="team-hero-text-container">
               <h1 className="team-heading">
-                <span>Why Spectrum?</span>
+                <span>Our Team</span>
                 <br></br>
               </h1>
               <span className="team-text02">
@@ -85,14 +88,14 @@ const Team = (props) => {
           </div>
         </div>
         <div className="team-testimonials">
-          <h2 className="team-text03 Section-Heading">Our Team</h2>
+          <h2 className="team-text03 Section-Heading">Leadership</h2>
           <div className="team-blog">
             <div className="team-container2">
               <a
                 href="https://www.linkedin.com/in/stephen-crockett-111b2215b/"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="team-link07"
+                className="team-link09"
               >
                 <BlogPostCard1
                   title="Stephen Crockett"
@@ -108,7 +111,7 @@ const Team = (props) => {
                 href="https://www.linkedin.com/in/ericdjones-denver/"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="team-link08"
+                className="team-link10"
               >
                 <BlogPostCard1
                   title="Eric Jones"
@@ -124,7 +127,7 @@ const Team = (props) => {
                 href="https://www.linkedin.com/in/rajevs/"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="team-link09"
+                className="team-link11"
               >
                 <BlogPostCard1
                   title="Rajev Sivarasa"
@@ -140,13 +143,13 @@ const Team = (props) => {
                 href="https://www.linkedin.com/in/jerichill/"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="team-link10"
+                className="team-link12"
               >
                 <BlogPostCard1
                   title="Eric Hill"
+                  image_src="https://media-exp1.licdn.com/dms/image/C5603AQGzxI14uUp7NA/profile-displayphoto-shrink_200_200/0/1651642816593?e=1674086400&amp;v=beta&amp;t=PxJEUdvlazNaKmh97hu9GRi4bIZ28Nbj07UYPXu57xU"
                   description="Websites &amp; Hosting"
                   rootClassName="rootClassName1"
-                  image_src="https://media-exp1.licdn.com/dms/image/C5603AQGzxI14uUp7NA/profile-displayphoto-shrink_200_200/0/1651642816593?e=1674086400&amp;v=beta&amp;t=PxJEUdvlazNaKmh97hu9GRi4bIZ28Nbj07UYPXu57xU"
                   className="team-component3"
                 ></BlogPostCard1>
               </a>
@@ -497,7 +500,7 @@ const Team = (props) => {
                     href="https://zfrmz.com/PW4MJU6QtrNdjnhepCJu"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="team-link11 Section-Text"
+                    className="team-link13 Section-Text"
                   >
                     Request a Quote
                   </a>
@@ -592,7 +595,11 @@ const Team = (props) => {
             margin-right: var(--dl-space-space-tripleunit);
             text-decoration: none;
           }
-          .team-link05 {
+          .team-link06 {
+            margin-right: var(--dl-space-space-tripleunit);
+            text-decoration: none;
+          }
+          .team-link07 {
             text-decoration: none;
           }
           .team-cta-container {
@@ -601,7 +608,7 @@ const Team = (props) => {
             flex-direction: row;
             justify-content: space-between;
           }
-          .team-link06 {
+          .team-link08 {
             color: var(--dl-color-gray-white);
             padding-top: var(--dl-space-space-unit);
             padding-left: var(--dl-space-space-fiveunits);
@@ -696,7 +703,7 @@ const Team = (props) => {
             margin-right: 32px;
             justify-content: space-between;
           }
-          .team-link07 {
+          .team-link09 {
             display: contents;
           }
           .team-component {
@@ -708,7 +715,7 @@ const Team = (props) => {
             margin-right: 32px;
             justify-content: space-between;
           }
-          .team-link08 {
+          .team-link10 {
             display: contents;
           }
           .team-component1 {
@@ -720,7 +727,7 @@ const Team = (props) => {
             margin-right: 32px;
             justify-content: space-between;
           }
-          .team-link09 {
+          .team-link11 {
             display: contents;
           }
           .team-component2 {
@@ -731,7 +738,7 @@ const Team = (props) => {
             align-items: center;
             justify-content: space-between;
           }
-          .team-link10 {
+          .team-link12 {
             display: contents;
           }
           .team-component3 {
@@ -1375,7 +1382,7 @@ const Team = (props) => {
             height: 24px;
             margin-right: var(--dl-space-space-doubleunit);
           }
-          .team-link11 {
+          .team-link13 {
             text-decoration: none;
           }
           .team-phone {
@@ -1558,10 +1565,13 @@ const Team = (props) => {
             .team-link04 {
               display: none;
             }
-            .team-link05 {
+            .team-link06 {
               display: none;
             }
-            .team-link06 {
+            .team-link07 {
+              display: none;
+            }
+            .team-link08 {
               font-size: 16px;
               padding-left: var(--dl-space-space-doubleunit);
               padding-right: var(--dl-space-space-doubleunit);

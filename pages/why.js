@@ -43,18 +43,24 @@ const Why = (props) => {
             </Link>
             <div className="why-links-container">
               <Link href="/solutions">
-                <a className="why-link2 Anchor">Solutions</a>
+                <a className="why-link02 Anchor">Solutions</a>
               </Link>
               <Link href="/why">
-                <a className="why-link4 Anchor">Why Spectrum?</a>
+                <a className="why-link04 Anchor">Why Spectrum?</a>
               </Link>
-              <a href="#contact" className="why-link5 Anchor">
+              <Link href="/team">
+                <a className="why-link06">
+                  <span className="Anchor why-text">Team</span>
+                  <br></br>
+                </a>
+              </Link>
+              <a href="#contact" className="why-link07 Anchor">
                 contact
               </a>
             </div>
             <div className="why-cta-container">
               <Link href="/support">
-                <a className="why-link6 button Anchor">Customer Support</a>
+                <a className="why-link08 button Anchor">Customer Support</a>
               </Link>
             </div>
           </div>
@@ -66,7 +72,7 @@ const Why = (props) => {
                 <span>Why Spectrum?</span>
                 <br></br>
               </h1>
-              <span className="why-text02">
+              <span className="why-text04">
                 We pride ourselves on our commitment to our clients, our
                 expertise, and our tightly integrated team approach to our
                 projects.
@@ -83,7 +89,7 @@ const Why = (props) => {
           </div>
         </div>
         <div className="why-testimonials">
-          <h2 className="why-text03 Section-Heading">Our Customers Love Us</h2>
+          <h2 className="why-text05 Section-Heading">Our Customers Love Us</h2>
           <div className="why-cards-container">
             <div className="why-testimonial-card">
               <div className="why-card-heading">
@@ -123,7 +129,7 @@ const Why = (props) => {
                   </svg>
                 </div>
               </div>
-              <span className="why-text04">
+              <span className="why-text06">
                 They were able to initiate and complete our project with minimum
                 turnaround time. Our project manager saw the process through
                 from start to finish and helped keep us informed with bi-weekly
@@ -168,7 +174,7 @@ const Why = (props) => {
                   </svg>
                 </div>
               </div>
-              <span className="why-text05">
+              <span className="why-text07">
                 I am always super impressed with their ability to think outside
                 the box, build a solid strategy, and execute. We most certainly
                 would not be where we are today if it were not for their hard
@@ -213,7 +219,7 @@ const Why = (props) => {
                   </svg>
                 </div>
               </div>
-              <span className="why-text06">
+              <span className="why-text08">
                 We brainstormed some ideas together and was able to agree with
                 contract terms and pricing fairly quickly and the execution
                 happened shortly after.
@@ -264,7 +270,7 @@ const Why = (props) => {
                   </svg>
                 </div>
               </div>
-              <span className="why-text07">
+              <span className="why-text09">
                 Attentive and responsive. Definitely knows their stuff, on the
                 cutting edge. Perfect for reducing our infrastructure costs and
                 moving to the cloud. Having a virtual CIO assisting me on
@@ -309,7 +315,7 @@ const Why = (props) => {
                   </svg>
                 </div>
               </div>
-              <span className="why-text08">
+              <span className="why-text10">
                 They got us up and running in no time. My website is beautiful
                 and I receive compliments daily. Even more important than the
                 beauty of my site is the fact that it NEVER goes down. What a
@@ -355,7 +361,7 @@ const Why = (props) => {
                   </svg>
                 </div>
               </div>
-              <span className="why-text09">
+              <span className="why-text11">
                 Professional, courteous, and ultimately just a great team to
                 work with. They act as if our  platforms are their own, and take
                 great care to ensure our users get a great experience
@@ -366,7 +372,7 @@ const Why = (props) => {
         <div className="why-section-separator"></div>
         <div id="about" className="why-about-us">
           <div className="why-heading-container">
-            <h2 className="why-text10 Section-Heading">
+            <h2 className="why-text12 Section-Heading">
               Our Unique Value Proposition
             </h2>
             <span className="why-secondary-text">
@@ -379,7 +385,7 @@ const Why = (props) => {
             </button>
           </div>
           <div className="why-text-container">
-            <span className="why-text11">
+            <span className="why-text13">
               <span>
                 Success in IT project management depends on how well vendors and
                 service providers work together.  Understanding project goals,
@@ -402,7 +408,7 @@ const Why = (props) => {
         </div>
         <div id="contact" className="why-contact">
           <div className="why-content-container">
-            <h2 className="why-text16 Section-Heading">Contact Us</h2>
+            <h2 className="why-text18 Section-Heading">Contact Us</h2>
             <div className="why-locations-container">
               <div className="why-location-1">
                 <span className="why-heading1">
@@ -424,7 +430,7 @@ const Why = (props) => {
                     href="https://zfrmz.com/PW4MJU6QtrNdjnhepCJu"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="why-link7 Section-Text"
+                    className="why-link09 Section-Text"
                   >
                     Request a Quote
                   </a>
@@ -449,7 +455,7 @@ const Why = (props) => {
         </div>
         <div className="why-container2">
           <div className="why-container3">
-            <span className="why-text19">
+            <span className="why-text21">
               Copyright 2022 Evolve Network Solutions, Fortify IT, Clarity IT,
               and OpenMedium | All rights reserved. | Privacy Policy
             </span>
@@ -511,15 +517,19 @@ const Why = (props) => {
             align-items: flex-start;
             flex-direction: row;
           }
-          .why-link2 {
+          .why-link02 {
             margin-right: var(--dl-space-space-tripleunit);
             text-decoration: none;
           }
-          .why-link4 {
+          .why-link04 {
             margin-right: var(--dl-space-space-tripleunit);
             text-decoration: none;
           }
-          .why-link5 {
+          .why-link06 {
+            margin-right: var(--dl-space-space-tripleunit);
+            text-decoration: none;
+          }
+          .why-link07 {
             text-decoration: none;
           }
           .why-cta-container {
@@ -528,7 +538,7 @@ const Why = (props) => {
             flex-direction: row;
             justify-content: space-between;
           }
-          .why-link6 {
+          .why-link08 {
             color: var(--dl-color-gray-white);
             padding-top: var(--dl-space-space-unit);
             padding-left: var(--dl-space-space-fiveunits);
@@ -578,7 +588,7 @@ const Why = (props) => {
             font-size: 2.75em;
             margin-bottom: var(--dl-space-space-doubleunit);
           }
-          .why-text02 {
+          .why-text04 {
             color: var(--dl-color-gray-white);
             font-size: 1.5em;
             margin-bottom: var(--dl-space-space-fourunits);
@@ -606,7 +616,7 @@ const Why = (props) => {
             flex-direction: column;
             padding-bottom: var(--dl-space-space-fiveunits);
           }
-          .why-text03 {
+          .why-text05 {
             margin-bottom: var(--dl-space-space-fiveunits);
           }
           .why-cards-container {
@@ -691,7 +701,7 @@ const Why = (props) => {
             height: 24px;
             margin-right: var(--dl-space-space-unit);
           }
-          .why-text04 {
+          .why-text06 {
             color: var(--dl-color-gray-black);
             font-size: 18px;
             text-align: left;
@@ -768,7 +778,7 @@ const Why = (props) => {
             width: 24px;
             height: 24px;
           }
-          .why-text05 {
+          .why-text07 {
             color: var(--dl-color-gray-black);
             text-align: left;
           }
@@ -845,7 +855,7 @@ const Why = (props) => {
             height: 24px;
             margin-right: var(--dl-space-space-unit);
           }
-          .why-text06 {
+          .why-text08 {
             color: var(--dl-color-gray-black);
             text-align: left;
           }
@@ -931,7 +941,7 @@ const Why = (props) => {
             height: 24px;
             margin-right: var(--dl-space-space-unit);
           }
-          .why-text07 {
+          .why-text09 {
             color: var(--dl-color-gray-black);
             text-align: left;
           }
@@ -1007,7 +1017,7 @@ const Why = (props) => {
             width: 24px;
             height: 24px;
           }
-          .why-text08 {
+          .why-text10 {
             color: var(--dl-color-gray-black);
             text-align: left;
           }
@@ -1084,7 +1094,7 @@ const Why = (props) => {
             height: 24px;
             margin-right: var(--dl-space-space-unit);
           }
-          .why-text09 {
+          .why-text11 {
             color: var(--dl-color-gray-black);
             text-align: left;
           }
@@ -1115,7 +1125,7 @@ const Why = (props) => {
             margin-right: var(--dl-space-space-fiveunits);
             flex-direction: column;
           }
-          .why-text10 {
+          .why-text12 {
             margin-bottom: var(--dl-space-space-tripleunit);
           }
           .why-secondary-text {
@@ -1146,7 +1156,7 @@ const Why = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .why-text11 {
+          .why-text13 {
             color: var(--dl-color-gray-black);
             font-size: 1.25em;
           }
@@ -1187,7 +1197,7 @@ const Why = (props) => {
             border-right-width: 0px;
             border-bottom-width: 0px;
           }
-          .why-text16 {
+          .why-text18 {
             margin-top: var(--dl-space-space-fiveunits);
             margin-bottom: var(--dl-space-space-fiveunits);
           }
@@ -1232,7 +1242,7 @@ const Why = (props) => {
             height: 24px;
             margin-right: var(--dl-space-space-doubleunit);
           }
-          .why-link7 {
+          .why-link09 {
             text-decoration: none;
           }
           .why-phone {
@@ -1265,7 +1275,7 @@ const Why = (props) => {
             align-items: center;
             justify-content: center;
           }
-          .why-text19 {
+          .why-text21 {
             font-size: 12px;
           }
           @media (max-width: 991px) {
@@ -1313,7 +1323,7 @@ const Why = (props) => {
               width: auto;
               margin-left: var(--dl-space-space-tripleunit);
             }
-            .why-text03 {
+            .why-text05 {
               text-align: center;
             }
             .why-cards-container {
@@ -1372,7 +1382,7 @@ const Why = (props) => {
             .why-heading-container {
               align-items: center;
             }
-            .why-text10 {
+            .why-text12 {
               text-align: center;
             }
             .why-contact {
@@ -1387,16 +1397,22 @@ const Why = (props) => {
             }
           }
           @media (max-width: 479px) {
-            .why-link2 {
+            .why-link02 {
               margin-right: var(--dl-space-space-halfunit);
             }
-            .why-link4 {
+            .why-link04 {
               display: none;
             }
-            .why-link5 {
+            .why-link06 {
               display: none;
             }
-            .why-link6 {
+            .why-text {
+              display: none;
+            }
+            .why-link07 {
+              display: none;
+            }
+            .why-link08 {
               font-size: 16px;
               padding-left: var(--dl-space-space-doubleunit);
               padding-right: var(--dl-space-space-doubleunit);
@@ -1407,7 +1423,7 @@ const Why = (props) => {
             .why-hero-text-container {
               width: 100%;
             }
-            .why-text03 {
+            .why-text05 {
               text-align: center;
             }
             .why-testimonial-card {
@@ -1433,7 +1449,7 @@ const Why = (props) => {
               padding-left: 0px;
               padding-right: 0px;
             }
-            .why-text16 {
+            .why-text18 {
               text-align: center;
             }
             .why-locations-container {

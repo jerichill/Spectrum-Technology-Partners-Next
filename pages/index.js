@@ -48,13 +48,19 @@ const Home = (props) => {
               <Link href="/why">
                 <a className="home-link04 Anchor">Why Spectrum?</a>
               </Link>
-              <a href="#contact" className="home-link05 Anchor">
+              <Link href="/team">
+                <a className="home-link06">
+                  <span className="Anchor home-text">team</span>
+                  <br></br>
+                </a>
+              </Link>
+              <a href="#contact" className="home-link07 Anchor">
                 contact
               </a>
             </div>
             <div className="home-cta-container">
               <Link href="/support">
-                <a className="home-link06 button Anchor">Customer Support</a>
+                <a className="home-link08 button Anchor">Customer Support</a>
               </Link>
             </div>
           </div>
@@ -66,7 +72,7 @@ const Home = (props) => {
                 <span>Spectrum Technology Partners</span>
                 <br></br>
               </h1>
-              <span className="home-text02">
+              <span className="home-text04">
                 Spectrum Partners was formed to solve the problem of poor IT
                 project management. We pride ourselves on our commitment to our
                 clients, our expertise, and our tightly integrated team approach
@@ -86,8 +92,8 @@ const Home = (props) => {
         <div className="home-section-separator"></div>
         <div id="solutions" className="home-features">
           <div className="home-heading-container">
-            <h2 className="home-text03 Section-Heading">Our Solutions</h2>
-            <h3 className="home-text04">
+            <h2 className="home-text05 Section-Heading">Our Solutions</h2>
+            <h3 className="home-text06">
               Spectrum Technology Partners offers a single point of management
               for IT projects that demand expertise and accountability.
             </h3>
@@ -100,7 +106,7 @@ const Home = (props) => {
                 className="home-image1"
               />
               <span className="home-heading1 Card-Heading">Why</span>
-              <span className="home-text05 Card-Text">
+              <span className="home-text07 Card-Text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
                 nisi. Nulla quis sem at nibh elementum imperdiet.
@@ -113,7 +119,7 @@ const Home = (props) => {
                 className="home-image2"
               />
               <span className="home-heading2 Card-Heading">What</span>
-              <span className="home-text06 Card-Text">
+              <span className="home-text08 Card-Text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
                 nisi. Nulla quis sem at nibh elementum imperdiet.
@@ -126,7 +132,7 @@ const Home = (props) => {
                 className="home-image3"
               />
               <span className="home-heading3 Card-Heading">How</span>
-              <span className="home-text07 Card-Text">
+              <span className="home-text09 Card-Text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
                 nisi. Nulla quis sem at nibh elementum imperdiet.
@@ -136,13 +142,13 @@ const Home = (props) => {
         </div>
         <div id="services" className="home-services">
           <Link href="/solutions">
-            <a className="home-link07">
+            <a className="home-link09">
               <div className="home-service-card">
                 <div className="home-card-content">
-                  <h3 className="home-text08 BigCard-Heading">
+                  <h3 className="home-text10 BigCard-Heading">
                     IT &amp; Network Infrastructure
                   </h3>
-                  <span className="home-text09 Card-Text">
+                  <span className="home-text11 Card-Text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Integer nec odio. Praesent libero.
                     <span
@@ -159,13 +165,13 @@ const Home = (props) => {
             </a>
           </Link>
           <Link href="/solutions">
-            <a className="home-link08">
+            <a className="home-link10">
               <div className="home-service-card1">
                 <div className="home-card-content1">
-                  <h3 className="home-text10 BigCard-Heading">
+                  <h3 className="home-text12 BigCard-Heading">
                     Cybersecurity &amp; Compliance
                   </h3>
-                  <span className="home-text11 Card-Text">
+                  <span className="home-text13 Card-Text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Integer nec odio. Praesent libero.
                     <span
@@ -182,13 +188,13 @@ const Home = (props) => {
             </a>
           </Link>
           <Link href="/solutions">
-            <a className="home-link09">
+            <a className="home-link11">
               <div className="home-service-card2">
                 <div className="home-card-content2">
-                  <h3 className="home-text12 BigCard-Heading">
+                  <h3 className="home-text14 BigCard-Heading">
                     VoIP &amp; Video Communications
                   </h3>
-                  <span className="home-text13 Card-Text">
+                  <span className="home-text15 Card-Text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Integer nec odio. Praesent libero.
                     <span
@@ -205,13 +211,13 @@ const Home = (props) => {
             </a>
           </Link>
           <Link href="/solutions">
-            <a className="home-link10">
+            <a className="home-link12">
               <div className="home-service-card3">
                 <div className="home-card-content3">
-                  <h3 className="home-text14 BigCard-Heading">
+                  <h3 className="home-text16 BigCard-Heading">
                     Managed Cloud &amp; WebOps
                   </h3>
-                  <span className="home-text15 Card-Text">
+                  <span className="home-text17 Card-Text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Integer nec odio. Praesent libero.
                     <span
@@ -230,7 +236,7 @@ const Home = (props) => {
         </div>
         <div id="about" className="home-about-us">
           <div className="home-heading-container1">
-            <h2 className="home-text16 Section-Heading">About Spectrum</h2>
+            <h2 className="home-text18 Section-Heading">About Spectrum</h2>
             <span className="home-secondary-text">
               {' '}
               A single point of truth for your business systems and technology
@@ -246,7 +252,7 @@ const Home = (props) => {
             </a>
           </div>
           <div className="home-text-container">
-            <span className="home-text17">
+            <span className="home-text19">
               <span>
                 Success in IT project management depends on how well vendors and
                 service providers work together.  Understanding project goals,
@@ -271,7 +277,7 @@ const Home = (props) => {
         </div>
         <div className="home-section-separator1"></div>
         <div className="home-testimonials">
-          <h2 className="home-text22 Section-Heading">Our Happy Customers</h2>
+          <h2 className="home-text24 Section-Heading">Our Happy Customers</h2>
           <div className="home-cards-container1">
             <div className="home-testimonial-card">
               <div className="home-card-heading">
@@ -311,7 +317,7 @@ const Home = (props) => {
                   </svg>
                 </div>
               </div>
-              <span className="home-text23">
+              <span className="home-text25">
                 They were able to initiate and complete our project with minimum
                 turnaround time. Our project manager saw the process through
                 from start to finish and helped keep us informed with bi-weekly
@@ -356,7 +362,7 @@ const Home = (props) => {
                   </svg>
                 </div>
               </div>
-              <span className="home-text24">
+              <span className="home-text26">
                 I am always super impressed with their ability to think outside
                 the box, build a solid strategy, and execute. We most certainly
                 would not be where we are today if it were not for their hard
@@ -401,7 +407,7 @@ const Home = (props) => {
                   </svg>
                 </div>
               </div>
-              <span className="home-text25">
+              <span className="home-text27">
                 We brainstormed some ideas together and was able to agree with
                 contract terms and pricing fairly quickly and the execution
                 happened shortly after.
@@ -416,7 +422,7 @@ const Home = (props) => {
         </div>
         <div id="contact" className="home-contact">
           <div className="home-content-container">
-            <h2 className="home-text26 Section-Heading">Contact Us</h2>
+            <h2 className="home-text28 Section-Heading">Contact Us</h2>
             <div className="home-locations-container">
               <div className="home-location-1">
                 <span className="home-heading4">
@@ -438,7 +444,7 @@ const Home = (props) => {
                     href="https://zfrmz.com/PW4MJU6QtrNdjnhepCJu"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="home-link11 Section-Text"
+                    className="home-link13 Section-Text"
                   >
                     Request a Quote
                   </a>
@@ -463,7 +469,7 @@ const Home = (props) => {
         </div>
         <div className="home-container2">
           <div className="home-container3">
-            <span className="home-text29">
+            <span className="home-text31">
               Copyright 2022 Evolve Network Solutions, Fortify IT, Clarity IT,
               and OpenMedium | All rights reserved. | Privacy Policy
             </span>
@@ -533,7 +539,11 @@ const Home = (props) => {
             margin-right: var(--dl-space-space-tripleunit);
             text-decoration: none;
           }
-          .home-link05 {
+          .home-link06 {
+            margin-right: var(--dl-space-space-tripleunit);
+            text-decoration: none;
+          }
+          .home-link07 {
             text-decoration: none;
           }
           .home-cta-container {
@@ -542,7 +552,7 @@ const Home = (props) => {
             flex-direction: row;
             justify-content: space-between;
           }
-          .home-link06 {
+          .home-link08 {
             color: var(--dl-color-gray-white);
             padding-top: var(--dl-space-space-unit);
             padding-left: var(--dl-space-space-fiveunits);
@@ -595,7 +605,7 @@ const Home = (props) => {
             font-size: 2.75em;
             margin-bottom: var(--dl-space-space-doubleunit);
           }
-          .home-text02 {
+          .home-text04 {
             color: var(--dl-color-gray-white);
             font-size: 1.5em;
             margin-bottom: var(--dl-space-space-fourunits);
@@ -637,11 +647,11 @@ const Home = (props) => {
             margin-bottom: var(--dl-space-space-fiveunits);
             flex-direction: column;
           }
-          .home-text03 {
+          .home-text05 {
             text-align: center;
             margin-bottom: var(--dl-space-space-fourunits);
           }
-          .home-text04 {
+          .home-text06 {
             color: var(--dl-color-gray-black);
             font-size: 20px;
             text-align: center;
@@ -674,7 +684,7 @@ const Home = (props) => {
           .home-heading1 {
             margin-bottom: var(--dl-space-space-tripleunit);
           }
-          .home-text05 {
+          .home-text07 {
             color: var(--dl-color-gray-500);
             text-align: center;
           }
@@ -696,7 +706,7 @@ const Home = (props) => {
           .home-heading2 {
             margin-bottom: var(--dl-space-space-tripleunit);
           }
-          .home-text06 {
+          .home-text08 {
             color: var(--dl-color-gray-500);
             text-align: center;
           }
@@ -718,7 +728,7 @@ const Home = (props) => {
           .home-heading3 {
             margin-bottom: var(--dl-space-space-tripleunit);
           }
-          .home-text07 {
+          .home-text09 {
             color: var(--dl-color-gray-500);
             text-align: center;
           }
@@ -730,7 +740,7 @@ const Home = (props) => {
             flex-direction: row;
             justify-content: space-between;
           }
-          .home-link07 {
+          .home-link09 {
             display: contents;
           }
           .home-service-card {
@@ -759,12 +769,12 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .home-text08 {
+          .home-text10 {
             color: var(--dl-color-gray-white);
             text-align: center;
             margin-bottom: var(--dl-space-space-fourunits);
           }
-          .home-text09 {
+          .home-text11 {
             color: var(--dl-color-primary-700);
             display: none;
             text-align: center;
@@ -782,7 +792,7 @@ const Home = (props) => {
             padding-bottom: var(--dl-space-space-doubleunit);
             background-color: var(--dl-color-primary-100);
           }
-          .home-link08 {
+          .home-link10 {
             display: contents;
           }
           .home-service-card1 {
@@ -811,12 +821,12 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .home-text10 {
+          .home-text12 {
             color: var(--dl-color-gray-white);
             text-align: center;
             margin-bottom: var(--dl-space-space-fourunits);
           }
-          .home-text11 {
+          .home-text13 {
             color: var(--dl-color-primary-700);
             display: none;
             text-align: center;
@@ -834,7 +844,7 @@ const Home = (props) => {
             padding-bottom: var(--dl-space-space-doubleunit);
             background-color: var(--dl-color-primary-100);
           }
-          .home-link09 {
+          .home-link11 {
             display: contents;
           }
           .home-service-card2 {
@@ -862,12 +872,12 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .home-text12 {
+          .home-text14 {
             color: var(--dl-color-gray-white);
             text-align: center;
             margin-bottom: var(--dl-space-space-fourunits);
           }
-          .home-text13 {
+          .home-text15 {
             color: var(--dl-color-primary-700);
             display: none;
             text-align: center;
@@ -885,7 +895,7 @@ const Home = (props) => {
             padding-bottom: var(--dl-space-space-doubleunit);
             background-color: var(--dl-color-primary-100);
           }
-          .home-link10 {
+          .home-link12 {
             display: contents;
           }
           .home-service-card3 {
@@ -913,12 +923,12 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .home-text14 {
+          .home-text16 {
             color: var(--dl-color-gray-white);
             text-align: center;
             margin-bottom: var(--dl-space-space-fourunits);
           }
-          .home-text15 {
+          .home-text17 {
             color: var(--dl-color-primary-700);
             display: none;
             text-align: center;
@@ -955,7 +965,7 @@ const Home = (props) => {
             margin-right: var(--dl-space-space-fiveunits);
             flex-direction: column;
           }
-          .home-text16 {
+          .home-text18 {
             margin-bottom: var(--dl-space-space-tripleunit);
           }
           .home-secondary-text {
@@ -987,7 +997,7 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .home-text17 {
+          .home-text19 {
             color: var(--dl-color-gray-black);
             font-size: 1.25em;
           }
@@ -1023,7 +1033,7 @@ const Home = (props) => {
             flex-direction: column;
             padding-bottom: var(--dl-space-space-fiveunits);
           }
-          .home-text22 {
+          .home-text24 {
             margin-bottom: var(--dl-space-space-fiveunits);
           }
           .home-cards-container1 {
@@ -1108,7 +1118,7 @@ const Home = (props) => {
             height: 24px;
             margin-right: var(--dl-space-space-unit);
           }
-          .home-text23 {
+          .home-text25 {
             color: var(--dl-color-gray-black);
             font-size: 18px;
             text-align: left;
@@ -1185,7 +1195,7 @@ const Home = (props) => {
             width: 24px;
             height: 24px;
           }
-          .home-text24 {
+          .home-text26 {
             color: var(--dl-color-gray-black);
             text-align: left;
           }
@@ -1262,7 +1272,7 @@ const Home = (props) => {
             height: 24px;
             margin-right: var(--dl-space-space-unit);
           }
-          .home-text25 {
+          .home-text27 {
             color: var(--dl-color-gray-black);
             text-align: left;
           }
@@ -1291,7 +1301,7 @@ const Home = (props) => {
             border-right-width: 0px;
             border-bottom-width: 0px;
           }
-          .home-text26 {
+          .home-text28 {
             margin-top: var(--dl-space-space-fiveunits);
             margin-bottom: var(--dl-space-space-fiveunits);
           }
@@ -1336,7 +1346,7 @@ const Home = (props) => {
             height: 24px;
             margin-right: var(--dl-space-space-doubleunit);
           }
-          .home-link11 {
+          .home-link13 {
             text-decoration: none;
           }
           .home-phone {
@@ -1369,7 +1379,7 @@ const Home = (props) => {
             align-items: center;
             justify-content: center;
           }
-          .home-text29 {
+          .home-text31 {
             font-size: 12px;
           }
           @media (max-width: 1200px) {
@@ -1471,10 +1481,10 @@ const Home = (props) => {
             .home-heading-container1 {
               align-items: center;
             }
-            .home-text16 {
+            .home-text18 {
               text-align: center;
             }
-            .home-text22 {
+            .home-text24 {
               text-align: center;
             }
             .home-cards-container1 {
@@ -1520,10 +1530,16 @@ const Home = (props) => {
             .home-link04 {
               display: none;
             }
-            .home-link05 {
+            .home-link06 {
               display: none;
             }
-            .home-link06 {
+            .home-text {
+              display: none;
+            }
+            .home-link07 {
+              display: none;
+            }
+            .home-link08 {
               font-size: 16px;
               padding-left: var(--dl-space-space-doubleunit);
               padding-right: var(--dl-space-space-doubleunit);
@@ -1553,7 +1569,7 @@ const Home = (props) => {
             .home-service-card3 {
               width: 100%;
             }
-            .home-text22 {
+            .home-text24 {
               text-align: center;
             }
             .home-testimonial-card {
@@ -1570,7 +1586,7 @@ const Home = (props) => {
               padding-left: 0px;
               padding-right: 0px;
             }
-            .home-text26 {
+            .home-text28 {
               text-align: center;
             }
             .home-locations-container {
